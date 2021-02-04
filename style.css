@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #10101B;
+    background: #aaa;
     height: 100vh;
 }
 .container {
@@ -11,9 +11,15 @@ body {
 
 .half-width {
     height: 570px;
-    background: #222436;
-    padding: 30px;
+    background: #fff;
+    padding: 40px;
     text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 .generate-btn{
     margin-top: 140px;
@@ -33,7 +39,7 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+    background-color: #313444;
     padding: 10px 0px;
     color: #ffffff;
     width: 80%;
@@ -95,6 +101,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
